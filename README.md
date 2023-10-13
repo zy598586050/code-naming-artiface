@@ -1,10 +1,7 @@
 <h2 align="center">
     <img src="./logo.png" height="200">
+    <p style="font-size: 14px">变量命名瞬间搞定，让创意源源不断！</p>
 </h2>
-
-<div align="center">变量命名瞬间搞定，让创意源源不断！</div>
-
----
 
 #### 🚀 使用方法
 
