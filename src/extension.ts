@@ -32,7 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
 							messages: [
 								{
 									role: 'user',
-									content: `给我十个描述为 “${selectText}” 的驼峰变量名，不要加其他修饰语`
+									content: `给我20个描述为 “${selectText}” 的驼峰变量名，不要加其他修饰语`
 								}
 							]
 						})
