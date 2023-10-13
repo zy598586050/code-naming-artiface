@@ -11,7 +11,9 @@
 
 选中你的变量名，然后右键菜单，可以看到命名神器的选项，点击后可以看到出现若干条智能提示，选择你喜欢的变量名即可自动替换，并在该行代码前添加注释
 
-<img src="./preview1.gif" width="500">
+<div align="center">
+    <img src="./preview1.gif" width="500">
+</div>
 
 <br>
 
@@ -19,7 +21,9 @@
 
 选中你的变量名，通过按快捷键 Ctrl + Shift + V 快速调起智能提示，选择你喜欢的变量名即可自动替换，并在该行代码前添加注释
 
-<img src="./preview2.png" width="500">
+<div align="center">
+    <img src="./preview2.png" width="500">
+</div>
 
 <br>
 
