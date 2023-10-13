@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="./logo.png" height="64">
+    <img src="./logo.png" height="100">
     <br>命名神器
 </h2>
 
