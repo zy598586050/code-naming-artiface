@@ -4,7 +4,7 @@
   "description": "变量命名瞬间搞定，让创意源源不断！",
   "version": "0.0.1",
   "publisher": "无穷369",
-  "icon": "./logo.png",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.83.0"
   },
