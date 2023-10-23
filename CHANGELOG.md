@@ -1,9 +1,19 @@
-# Change Log
+### ⚓️ 更新日志
 
-All notable changes to the "code-naming-artiface" extension will be documented in this file.
+v1.0.2
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+> 2023-10-23
 
-## [Unreleased]
+* 新增更新日志
 
-- Initial release
+v1.0.1
+
+> 2023-10-23
+
+* 使用Llama-2-70b-chat模型
+
+v1.0.0
+
+> 2023-10-13
+
+* 首次发版
