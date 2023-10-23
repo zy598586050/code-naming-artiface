@@ -1,7 +1,7 @@
 <!--
  * @Author: zhangyu
  * @Date: 2023-10-12 19:10:16
- * @LastEditTime: 2023-10-23 20:57:17
+ * @LastEditTime: 2023-10-23 21:01:35
 -->
 
 <h2 align="center">
@@ -51,7 +51,7 @@
 
 可以通过自定义配置来设置你自己的模型，从而达到最适合于你的效果，[千帆大模型列表](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu)
 
-> 注意：模型的名称要填实际接口定义的模型名 [API在线测试](https://console.bce.baidu.com/tools/?_=1698065492620#/api?product=AI&project=%E5%8D%83%E5%B8%86%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%8F%B0&parent=ERNIE-Bot-4&api=rpc%2F2.0%2Fai_custom%2Fv1%2Fwenxinworkshop%2Fchat%2Fcompletions_pro&method=post)
+注意：模型的名称要填实际接口定义的模型名 [API在线测试](https://console.bce.baidu.com/tools/?_=1698065492620#/api?product=AI&project=%E5%8D%83%E5%B8%86%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%8F%B0&parent=ERNIE-Bot-4&api=rpc%2F2.0%2Fai_custom%2Fv1%2Fwenxinworkshop%2Fchat%2Fcompletions_pro&method=post)
 
 <br>
 
@@ -60,6 +60,12 @@
 </div>
 
 ### ⚓️ 更新日志
+
+v1.0.5
+
+> 2023-10-23
+
+* 配置注意事项
 
 v1.0.4
 
