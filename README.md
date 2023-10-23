@@ -1,3 +1,8 @@
+<!--
+ * @Author: zhangyu
+ * @Date: 2023-10-12 19:10:16
+ * @LastEditTime: 2023-10-23 17:33:20
+-->
 <h2 align="center">
     <img src="./logo.png" width="260">
     <p style="font-size: 10px;">变量命名瞬间搞定，让创意源源不断！</p>
@@ -28,6 +33,12 @@
 <br>
 
 ### ⚓️ 更新日志
+
+v1.0.1
+
+> 2023-10-23
+
+* 使用Llama-2-70b-chat模型
 
 v1.0.0
 
