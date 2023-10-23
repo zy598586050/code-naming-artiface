@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-12 19:10:16
- * @LastEditTime: 2023-10-23 17:26:06
+ * @LastEditTime: 2023-10-23 18:13:20
  */
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
@@ -28,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
 				try {
 					// 请求大模型
 					const result = await axios({
-						url: 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/llama_2_70b?access_token=24.af507e0d3b2b6b3e4c978ba3cc25ec75.2592000.1700645132.282335-40991843',
+						url: 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro?access_token=24.af507e0d3b2b6b3e4c978ba3cc25ec75.2592000.1700645132.282335-40991843',
 						method: 'POST',
 						headers: {
 							'Content-Type': 'application/json'
