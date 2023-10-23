@@ -2,7 +2,7 @@
   "name": "code-naming-artiface",
   "displayName": "⚡️ 命名神器",
   "description": "变量命名瞬间搞定，让创意源源不断！",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "infinite369",
   "icon": "logo.png",
   "engines": {
@@ -53,7 +53,22 @@
         "mac": "Cmd+Shift+V",
         "when": "editorTextFocus"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "自定义配置",
+      "properties": {
+        "code-naming-artiface.model": {
+          "type": "string",
+          "default": "completions",
+          "description": "设置调用模型的名称"
+        },
+        "code-naming-artiface.token": {
+          "type": "string",
+          "default": "24.af507e0d3b2b6b3e4c978ba3cc25ec75.2592000.1700645132.282335-40991843",
+          "description": "设置调用模型的token"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",

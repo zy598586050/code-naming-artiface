@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-12 19:10:16
- * @LastEditTime: 2023-10-23 18:13:20
+ * @LastEditTime: 2023-10-23 20:42:42
  */
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
@@ -21,6 +21,10 @@ export function activate(context: vscode.ExtensionContext) {
 	// 绑定联想列表
 	const nameList = vscode.languages.registerCompletionItemProvider(['typescript', 'javascript'], {
 		async provideCompletionItems() {
+			// 读取自定义设置
+			const configuration = vscode.workspace.getConfiguration('code-naming-artiface')
+			const model = configuration.get('model', 'default')
+			const token = configuration.get('token', 'default')
 			let myCustomCompletionItem: any = []
 			const editor = vscode.window.activeTextEditor
 			if (editor) {
@@ -28,7 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
 				try {
 					// 请求大模型
 					const result = await axios({
-						url: 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro?access_token=24.af507e0d3b2b6b3e4c978ba3cc25ec75.2592000.1700645132.282335-40991843',
+						url: `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/${model}?access_token=${token}`,
 						method: 'POST',
 						headers: {
 							'Content-Type': 'application/json'
@@ -59,6 +63,7 @@ export function activate(context: vscode.ExtensionContext) {
 					})
 				} catch (error) {
 					console.log(error)
+					vscode.window.showErrorMessage('模型调用错误,请检查配置')
 				}
 			}
 			return myCustomCompletionItem

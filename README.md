@@ -1,8 +1,4 @@
-<!--
- * @Author: zhangyu
- * @Date: 2023-10-12 19:10:16
- * @LastEditTime: 2023-10-23 18:16:30
--->
+
 <h2 align="center">
     <img src="./logo.png" width="260">
     <p style="font-size: 10px;">变量命名瞬间搞定，让创意源源不断！</p>
@@ -32,7 +28,31 @@
 
 <br>
 
+### ⚙️ 自定义模型
+
+<br>
+
+<div align="center">
+    <img src="./settings.png" width="500">
+</div>
+
+<br>
+
+<div align="center">
+    <img src="./settings2.png" width="500">
+</div>
+
+<br>
+
+可以通过自定义配置来设置你自己的模型，从而达到最适合于你的效果，[千帆大模型列表](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu)
+
 ### ⚓️ 更新日志
+
+v1.0.4
+
+> 2023-10-23
+
+* 新增用户自定义配置模型
 
 v1.0.3
 
