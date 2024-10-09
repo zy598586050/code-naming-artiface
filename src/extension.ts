@@ -41,13 +41,13 @@ export function activate(context: vscode.ExtensionContext) {
 							messages: [
 								{
 									role: 'user',
-									content: `给我20个描述为 “${selectText}” 的驼峰变量名，不要加其他修饰语`
+									content: `生成20个以“${selectText}”作为基础的驼峰式变量名列表，无需额外说明，无需序号`
 								}
 							]
 						})
 					})
-					const text = result?.data?.result
-					const variableNames = text.match(/\d+\.\s+([^\n]+)\n?/g)
+					const text = result?.data?.result?.replace('```', '')?.replace('```', '')
+					const variableNames = text.match(/^[a-zA-Z0-9_]+/mg) || []
 					myCustomCompletionItem = variableNames.map((str: string) => {
 						const name = str.replace(/^\d+\.\s+/, '').replace(/\n/g, '')
 						const customCompletionItem = new vscode.CompletionItem(name, vscode.CompletionItemKind.Variable)

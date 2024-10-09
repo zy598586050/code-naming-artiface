@@ -2,7 +2,7 @@
   "name": "code-naming-artiface",
   "displayName": "⚡️ 命名神器",
   "description": "变量命名瞬间搞定，让创意源源不断！",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "infinite369",
   "icon": "logo.png",
   "engines": {
@@ -59,12 +59,12 @@
       "properties": {
         "code-naming-artiface.model": {
           "type": "string",
-          "default": "completions",
+          "default": "ernie-4.0-turbo-8k",
           "description": "设置调用模型的名称"
         },
         "code-naming-artiface.token": {
           "type": "string",
-          "default": "24.af507e0d3b2b6b3e4c978ba3cc25ec75.2592000.1700645132.282335-40991843",
+          "default": "24.8c2c2aa7eb467410cac827a426d737d6.2592000.1731045703.282335-40991843",
           "description": "设置调用模型的token"
         }
       }
